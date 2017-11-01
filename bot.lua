@@ -5,7 +5,8 @@ URL = require("socket.url")
 http = require("socket.http")
 https = require("ssl.https")
 ltn12 = require("ltn12")
-json = require "JSON"
+json = (loadfile "./libs/JSON.lua")()
+JSON = (loadfile "./libs/dkjson.lua")()
 redis = redis.connect("127.0.0.1", 6379)
 http.TIMEOUT = 10
 --------------------------------------------------------------------------------
