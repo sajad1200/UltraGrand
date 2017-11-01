@@ -10,4 +10,4 @@ chmod +x launch.sh
 ./launch.sh 
 `````````
 
-*Sajad Aliraqe
+- Sajad Aliraqe
